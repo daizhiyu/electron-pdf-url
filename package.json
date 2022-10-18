@@ -1,0 +1,28 @@
+{
+  "name": "electron-pdf-url",
+  "version": "1.0.1",
+  "description": " electron window url ",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron test",
+    "lint": "standard index.js test/**/*.js"
+  },
+  "keywords": [
+    "electron",
+    "pdf",
+    "viewer",
+    "pdfjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daizhiyu/electron-pdf-url.git"
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "is-electron-renderer": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "author": "dzy"
+}
